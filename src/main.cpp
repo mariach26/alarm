@@ -17,16 +17,16 @@
 
 Adafruit_SSD1306 display(SCREEN_WIDTH,SCREEN_HEIGHT, &Wire ,OLED_RESET);
 
-const char* ssid = "INALAN_2.4G_tdiEiP";
-const char* password = "X2DKiYdC";
+const char* ssid = "Mple";
+const char* password = "1234567896";
 
 const char* ntpServer ="pool.ntp.org";
 const long gmtOffset_sec= 7200; //2 wres *3600sec
 const int daylightOffset_sec = 3600;
 
 //alarm settings
-int alarmHour=22; //wra poy tha xtypaei (24hr)
-int alarmMinute=42;
+int alarmHour=13; //wra poy tha xtypaei (24hr)
+int alarmMinute=34;
 bool isAlarmActive = false; //an einai anoixto twra
 bool alarmAcknowledged = false; //an pathsa na stamathsei
 
